@@ -1,0 +1,105 @@
+/* .banner{
+    width:100%;
+    height: 340px;
+    background-color: #987357;
+    position: relative;
+    margin-bottom: 50px;
+}
+.banner-content {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+.banner-content h1{
+    font-size: 70px; 
+    font-weight: 500;
+    color: #fff; 
+} */
+
+
+/* LOGIN FORMS */
+.myaccount {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.myaccount .row{
+    display: flex;
+    justify-content: center;
+    padding: 55px;
+    gap: 40px;
+    width: 80%;
+    margin: 50px auto;
+}
+.myaccount .login{
+    width: 50%;
+}
+.myaccount .register{
+    width: 50%;
+}
+.myaccount h3{
+    font-size: 22px;
+    color: #222529;
+    margin: 0 0 8px;
+}
+.myaccount input{
+    width: 100%;
+    padding: 8px 12px;
+    line-height: 32px;
+    border: 1px solid rgb(0 0 0 / 8%);
+    margin-bottom: 17px;
+}
+.myaccount label{
+    font-size: 14px;
+    color: #777777;
+    font-weight: 500;
+}
+.myaccount .checklist {
+    display: flex;
+    justify-content: space-between;
+}
+.myaccount .check{
+    display: flex;
+}
+.myaccount .forgetpass a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #222529;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.myaccount p{
+    margin-bottom: 20px;
+    color: #777777;
+    font-size: 14px;
+}
+.myaccount .row form .btn{
+    text-decoration: none;
+    background: #222529;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    margin-top: 17px;
+    margin-bottom: 18px;
+}
+.myaccount .row .btn:hover{
+    opacity: 0.9;
+}
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+    .banner-content{
+        left: 21%;
+        top: 15%;
+    }
+    .myaccount{
+        margin: 0;
+    }
+    .myaccount .row{
+        padding:0 ;
+    }
+}

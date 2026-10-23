@@ -1,0 +1,282 @@
+.banner {
+    background-image:url('../Images/about/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 520px;
+    width: 100%;
+    position: relative;
+}
+.banner-content{
+    position: absolute;
+    top: 34%;
+    left: 8%;
+    width: 554px;
+}
+.banner-content h5{
+    font-size: 20px;
+    color: rgb(255 255 255 / 70%);
+    letter-spacing: 2px;
+    line-height: 28px;
+    margin: 0 0 10px;
+}
+.banner-content h1{
+    font-size: 56px;
+    color: #fff;
+    line-height: 63px;
+    letter-spacing: 2px;
+    margin-bottom: 23px;
+}
+.banner-content .btn{
+    padding: 17px 43px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 14px;
+    background: #fff;
+}
+.banner-content .btn:hover{
+    background-color:#935a43;
+    color: #fff;
+}
+
+/* SUPPORT FEATURES */
+
+.service-features{
+    margin-top: 90px;
+}
+.service-features .heading{
+    text-align: center;
+}
+.service-features .heading h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+.service-features .heading p{
+    font-size: 18px;
+    color: #777777;
+    line-height: 30px;
+    text-align: center;
+    padding: 0px 213px;
+}
+
+
+/* SHOP BY BRANDS */
+.brands{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.brands .row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+/* FEATURED BRANDS */
+.featured-brands {
+    margin-bottom: 100px;
+}
+.featured-brands .row{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+.featured-brands .row .img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.featured-brands .row img{
+    width: 550px;
+    height: 454px;
+    object-fit: cover;
+}
+.featured-brands .row .content{
+    padding-top:80px;
+    padding-bottom: 80px;
+    padding-left: 18px;
+    padding-right: 69px;
+}
+.featured-brands .row .content p{
+    font-size: 13px;
+    color: rgb(153, 153, 153);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+.featured-brands .content h2{
+    font-size: 32px;
+    margin-bottom: 19px;
+    font-weight: 500;
+    line-height: 1.375;
+}
+.featured-brands .row .content .para {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: normal;
+    text-transform: unset;
+    letter-spacing: unset;
+    opacity:1;
+    margin-bottom:38px;
+}
+.featured-brands .content a{
+    text-decoration: none;
+    background: #eddfd3;
+    color: #222222;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 15px 54px;
+}
+
+/* RATINGS */
+.rating{
+    background: #faf5f2;
+    padding-top: 60px;
+    padding-bottom: 12px;
+}
+.rating .row{
+    text-align: center;
+    width: 735px;
+    margin: 80px auto;
+}
+.rating .row h2{
+    color:#222529;
+    opacity: 0.9;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 21px;
+    line-height: 42px;
+}
+.rating .review p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #777777;
+}
+.rating .img{
+    margin-top: 27px;
+}
+.rating .img img{
+    border-radius: 50%;
+}
+
+/* WHY SHOP WITH US */
+
+.shop{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.shop .title{
+   margin-bottom: 50px;
+   text-align: center;
+}
+.shop .title h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+.support-features {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.support-features .feature .sicon{
+    background: #f9f2ed;
+    border-radius: 50%;
+    padding: 0px 3px;
+    width: 50px;
+    margin: 10px auto;
+}
+.support-features .sicon img{
+    width: 55px;
+}
+.feature .head h3{
+    color: #222529;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.feature .head p{
+    color: #777777;
+    font-size: 15px;
+}
+
+
+/* BEAUTY LOVERS */
+
+.bg-section{
+    width:100%;
+    height: 340px;
+    background-image: url(../Images/about/bg-1.jpg);
+    background-size: cover;
+    position: relative;
+}
+.bg-content {
+    position: absolute;
+    top: 37%;
+    right: 3%;
+}
+.bg-content h1{
+    font-size: 70px; 
+    font-weight: 500;
+    letter-spacing: 12px;
+    color: #f9f2ed;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+    .banner {
+        height: 230px;
+    }
+    .banner-content h1 {
+        font-size: 50px;
+    }
+    .service-features .heading p{
+        padding: 0 20px;
+    }
+    .brands .row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        text-align: center;
+    }
+    .featured-brands .row {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 454px;
+    }
+    .featured-brands .row .content {
+        width: 50%;
+        padding-right: 40px
+    }
+    .featured-brands .row .img {
+        width: 50%;
+    }
+    .featured-brands .row img {
+        width: 372px;
+        object-fit: cover;
+    }
+    .support-features{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .bg-section{
+        background-position: center;
+    }
+    .bg-content h1{
+        font-size: 40px;
+    }
+}
